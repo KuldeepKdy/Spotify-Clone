@@ -69,6 +69,7 @@ body {
 
 .right {
     margin: 16px 0px;
+    position: relative;
 }
 
 .header {
@@ -168,4 +169,19 @@ body {
     font-weight: 700;
     transform: scale(1.1);
     transition: all 0.2s linear;
+}
+
+.playbar{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(66, 142, 66);
+    width: 100%;
+    padding: 12px;
+}
+
+.songbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
 }
